@@ -1,16 +1,17 @@
 {
     "name_and_link": [
-        "Shourya Shikhar Ghosh",
-        "https://github.com/danger-ahead/"
+        "Jay Panchal",
+        "https://github.com/JAY-PANCHAL"
     ],
     "designation": [
-        "CS Undergrad.",
-        "Flutter Developer."
+        "Android Application Developer",
+        "Flutter Developer.",
+        "Mobile Application Developer"
     ],
-    "resume_download_link": "https://docs.google.com/document/d/15T64f6XCPKDaJX7CUFDIqly-H4PcudLTWDlKGxb9IvQ/edit?usp=sharing/export?format=pdf",
+    "resume_download_link": "",
     "social_media": {
         "1": [
-            "https://github.com/danger-ahead/",
+            "https://github.com/JAY-PANCHAL",
             "github"
         ],
         "2": [
@@ -30,12 +31,12 @@
             "twitter"
         ],
         "6": [
-            "mailto:danger.ahead@pm.me",
+            "mailto:jaypanchal4498@gmail.com",
             "email"
         ]
     },
     "contact_me": {
-        "location": "Kolkata, India",
+        "location": "Mumbai, India",
         "open_for_opportunities": "Yes",
         "picture": "picture.png"
     },
