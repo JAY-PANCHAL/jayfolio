@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_moving_background/enums/animation_types.dart';
+import 'package:flutter_moving_background/flutter_moving_background.dart';
 import 'package:scrollable_positioned_list/scrollable_positioned_list.dart';
 
 import 'src/nav_bar/nav_bar.dart';
@@ -12,9 +14,12 @@ class App extends StatelessWidget {
   Widget build(BuildContext context) {
     final double height = MediaQuery.of(context).size.height;
     final double width = MediaQuery.of(context).size.width;
+
     return LayoutBuilder(builder: (context, constraints) {
       if (constraints.maxWidth < 1000) {
-        return Scaffold(
+
+        return  Scaffold(
+
           floatingActionButton: FloatingActionButton(
             onPressed: () {},
             backgroundColor: Theme.of(context).scaffoldBackgroundColor,
@@ -31,7 +36,7 @@ class App extends StatelessWidget {
               }),
         );
       } else {
-        return Scaffold(
+        return  Scaffold(
           appBar: PreferredSize(
               preferredSize: Size(width, height * 0.07),
               child: const NavBar(isDarkModeBtnVisible: true)),
