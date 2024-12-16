@@ -63,15 +63,15 @@ class _ExperienceCardState extends State<ExperienceCard> {
                 offset: const Offset(8, 12),
               )
             ],
-            color: Theme.of(context).scaffoldBackgroundColor,
+            color: Theme.of(context).scaffoldBackgroundColor.withOpacity(0.1),
             borderRadius: BorderRadius.circular(
               5.0,
             ),
             border: Border.all(
               width: 3,
               color: currentTheme.currentTheme == ThemeMode.dark
-                  ? Theme.of(context).cardColor
-                  : Theme.of(context).primaryColor,
+                  ? Theme.of(context).cardColor.withOpacity(0.1)
+                  : Theme.of(context).primaryColor.withOpacity(0.1),
             ),
           ),
           child: Column(
@@ -90,8 +90,8 @@ class _ExperienceCardState extends State<ExperienceCard> {
                 width: !widget.isMobile ? width * 0.28 : width,
                 decoration: BoxDecoration(
                   color: currentTheme.currentTheme == ThemeMode.dark
-                      ? Theme.of(context).cardColor
-                      : Theme.of(context).primaryColor,
+                      ? Theme.of(context).cardColor.withOpacity(0.1)
+                      : Theme.of(context).primaryColor.withOpacity(0.1),
                   borderRadius: const BorderRadius.only(
                     bottomLeft: Radius.circular(5.0),
                     bottomRight: Radius.circular(5.0),

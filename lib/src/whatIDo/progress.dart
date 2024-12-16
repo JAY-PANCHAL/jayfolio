@@ -61,6 +61,7 @@ class _ProgressState extends State<Progress>
                   CustomText(
                       text: widget.title,
                       fontSize: widget.sizeProficiencyName,
+
                       color: Theme.of(context).primaryColorLight),
                   CustomText(
                       text: '${percentage.toStringAsFixed(0)}%',

@@ -27,8 +27,8 @@ class WhatIdo extends StatelessWidget {
             if (constraints.maxWidth < 1000) {
               int storage = -1;
               return Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
+                crossAxisAlignment: CrossAxisAlignment.start,                children: [
+
                   Padding(
                     padding: const EdgeInsets.fromLTRB(15, 10, 15, 20),
                     child: CustomText(
@@ -59,6 +59,7 @@ class WhatIdo extends StatelessWidget {
                               widthSecondContainer:
                                   double.parse(data[0][index].split('--')[1]),
                               title: data[0][index].split('--')[0],
+
                               sizeProficiencyName: 12,
                               sizePercentage: 10,
                             ),

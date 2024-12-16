@@ -30,7 +30,7 @@ class _EducationDesktopState extends State<EducationDesktop> {
       decoration: BoxDecoration(
         boxShadow: [
           BoxShadow(
-            color: isHover ? Colors.black12 : Colors.black45,
+            color: isHover ? Colors.black12.withOpacity(0.5) : Colors.black45.withOpacity(0.5),
             blurRadius: 10.0,
             offset: const Offset(8, 12),
           )
@@ -57,19 +57,20 @@ class _EducationDesktopState extends State<EducationDesktop> {
           width: width / 1.15,
           decoration: BoxDecoration(
             boxShadow: [
-              BoxShadow(
+             /* BoxShadow(
                 color: isHover ? Colors.black12 : Colors.black45,
                 blurRadius: 10.0,
                 offset: const Offset(8, 12),
-              )
+              ),*/
             ],
             color: currentTheme.currentTheme == ThemeMode.dark
-                ? Theme.of(context).cardColor
-                : Theme.of(context).primaryColor,
+                ? Theme.of(context).cardColor.withOpacity(0.1) // Adjust the opacity for transparency
+                : Theme.of(context).primaryColor.withOpacity(0.1), // Adjust the opacity for transparency
             borderRadius: BorderRadius.circular(
               5.0,
             ),
           ),
+
           child: Column(
             children: [
               Visibility(
@@ -98,7 +99,7 @@ class _EducationDesktopState extends State<EducationDesktop> {
                         borderRadius: BorderRadius.circular(5.0),
                         image: DecorationImage(
                           image: AssetImage('assets/education/${widget.image}'),
-                          fit: BoxFit.cover,
+                          fit: BoxFit.contain,
                         ),
                       ),
                     ),
@@ -139,14 +140,14 @@ class _EducationDesktopState extends State<EducationDesktop> {
                                 text: widget.desc,
                                 fontSize: 13,
                                 color: Colors.white)),
-                        FittedBox(
+                       /* FittedBox(
                             fit: BoxFit.cover,
                             child: CustomText(
                                 text: widget.grades != ''
                                     ? 'Grades Achieved: ${widget.grades}'
                                     : '',
                                 fontSize: 12,
-                                color: Colors.white)),
+                                color: Colors.white)),*/
                       ],
                     ),
                   ),

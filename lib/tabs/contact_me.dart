@@ -43,9 +43,11 @@ class _ContactMeState extends State<ContactMe> {
           focusColor: Colors.transparent,
           highlightColor: Colors.transparent,
           child: ClipOval(
+clipBehavior: Clip.antiAliasWithSaveLayer,
               child: data[2] != ''
-                  ? Image.asset('assets/contact_me/${data[2]}', scale: scale)
-                  : Image.asset('assets/contact_me/constant/picture.png',
+                  ? Image.asset('assets/contact_me/${data[2]}', scale: scale,fit: BoxFit.cover,)
+                  : Image.asset('assets/contact_me/constant/profile1.png',
+
                       scale: scale)),
         ),
       );
@@ -222,14 +224,14 @@ class _ContactMeState extends State<ContactMe> {
                     fontSize: 10,
                     color: Theme.of(context).primaryColorLight),
               ),
-              TextButton(
+             /* TextButton(
                 onPressed: () => htmlOpenLink(
                     'https://github.com/danger-ahead/flutter_dev_folio'),
                 child: CustomText(
                     text: 'Theme by flutter_dev_folio',
                     fontSize: 10,
                     color: Theme.of(context).primaryColorLight),
-              )
+              )*/
             ],
           ),
         ),

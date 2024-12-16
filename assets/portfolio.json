@@ -38,15 +38,15 @@
     "contact_me": {
         "location": "Mumbai, India",
         "open_for_opportunities": "Yes",
-        "picture": "picture.png"
+        "picture": "profile1.png"
     },
     "about": "A Passionate Mobile Application Developer",
     "bio": "Flutter developer passionate about crafting stunning, user-friendly apps that combine elegant design with seamless functionality. Dedicated to turning ideas into impactful mobile experiences.",
     "what_i_do": {
         "tools": [
             "flutter.png",
-            "linux.png",
-            "c.png",
+            "android.png",
+            "firebase.png",
             "cpp.png",
             "java.png",
             "python.png",
@@ -54,81 +54,58 @@
             "git.png"
         ],
         "proficiency": [
-            "Flutter--50",
-            "C/C++/Java/Python--60",
-            "GNU/Linux--30",
-            "Git--65"
+            "Flutter--95",
+            "Dart--95",
+            "Android--95",
+            "IOS--75",
+            "Firebase--95",
+            "Getx--85",
+            "Payment Integrations--95",
+            "Git--90",
+            "Third Party SDK--85"
         ]
     },
     "education": {
         "1": {
-            "institute": "RCC Institute of Information Technology",
-            "location": "Kolkata",
-            "years": "2020 - 2024",
-            "description": "B.Tech in CSE",
-            "grades": "9.53 YGPA",
-            "logo": "rcciit.png"
+            "institute": "K.S. School of Business Management",
+            "location": "Ahmedabad",
+            "years": "2016-2024",
+            "description": "BSC(CA & IT)",
+            "grades":"",
+            "logo": "kssbm.png"
         },
         "2": {
-            "institute": "Gitaram Academy",
-            "location": "Berhampore",
-            "years": "2018 - 2020",
-            "description": "Physics, Chemistry, Mathematics, Computer Science",
-            "grades": "84%",
-            "logo": "gitaram.png"
-        },
-        "3": {
-            "institute": "The St. Xavier's School",
-            "location": "Malda",
-            "years": "2004 - 2018",
-            "description": "Secondary Education",
-            "grades": "94%",
-            "logo": "stxaviers.png"
+            "institute": "K.S. School of Business Management",
+            "location": "Ahmedabad",
+            "years": "2018 - 2021",
+            "description": "MSC(CA & IT)",
+            "grades":"",
+            "logo": "kssbm.png"
         }
     },
     "experience": {
         "1": {
-            "name": "Ekko",
-            "role": "Web and App Intern",
-            "period": "June, 2022 - Present",
-            "description": "Working in the web and app team.",
-            "image_name": "ekko.png"
+            "name": "Tridhya Tech PVT LTD",
+            "role": "Mobile Application Developer",
+            "period": "Jan, 2021 - Jan, 2022",
+            "description": "Designed, developed, and tested Android applications using Java and Kotlin with MVC and MVVM patterns, integrating REST APIs and custom resources for enhanced functionality.\nEnsured compatibility across devices and OS versions through rigorous testing, optimizing performance, and addressing user feedback to deliver engaging, user-focused mobile solutions.",
+            "image_name": ""
         },
         "2": {
-            "name": "Credanic",
-            "role": "Flutter SDE Intern",
-            "period": "December, 2021 - February, 2021",
-            "description": "Worked in the Flutter App Dev Team.",
-            "image_name": "credanic.png"
+            "name": "WaytoWeb PVT LTD ",
+            "role": "Mobile Application Developer",
+            "period": "Jan, 2022 - Sept, 2023",
+            "description": "Developed and delivered diverse Flutter and Android applications, including a music player with Firebase integration, real-time location-sharing apps for shipping companies, and an UrbanClap-like suite with push notifications, local storage, and cost calculation features.\nCollaborated with clients from requirements gathering to app deployment, ensuring seamless functionality and user experience across Google Play and App Store.",
+            "image_name": ""
         },
         "3": {
-            "name": "Google Developer Student Club",
-            "role": "Cybersecurity core member",
-            "period": "September, 2021 - Present",
-            "description": "Helped in organizing and conducting technical workshops, and informative webinars for community members.",
-            "image_name": "GDSC.png"
-        },
-        "4": {
-            "name": "RccTechz - RCCIIT Tech Chapter",
-            "role": "Member",
-            "period": "March, 2021 - March, 2022",
-            "description": "Official Tech chapter of RCCIIT, RCCTechz. Contributed to Club activities, helped other members with projects and helped coordinate workshops.",
-            "image_name": "rcctechz.png"
-        },
-        "5": {
-            "name": "Coding Ninjas",
-            "role": "Campus Ambassador",
-            "period": "August, 2021 - February, 2022",
-            "description": "Promoting the company's courses, sharing referrals and conducting workshops.",
-            "image_name": "coding-ninjas.png"
-        },
-        "6": {
-            "name": "Open Source",
-            "role": "Contributor",
-            "period": "December, 2020 - Present",
-            "description": "Completed Hacktoberfest'21 with 6 merged pull requests.",
-            "image_name": "opensource.png"
+            "name": "MindTech Solutions PVT LTD",
+            "role": "Senior Mobile Application Developer",
+            "period": "Sept, 2023 - Present",
+            "description": "Senior Flutter Developer with a proven track record of delivering high-quality Android and iOS applications, including Uber-like ride-hailing apps with real-time tracking and payment integration (10k+ downloads).\nLed a mobile development team, mentoring junior developers and delivering solutions like employee management, onsite work tracking, and inventory management apps to enhance efficiency and streamline processes.",
+            "image_name": ""
         }
+
     },
     "projects": {
         "1": {
