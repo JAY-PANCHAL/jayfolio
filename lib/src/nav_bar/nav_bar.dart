@@ -44,15 +44,15 @@ class NavBar extends StatelessWidget {
               tabNumber: 4,
               btnNumber: ' 04. ',
               btnName: 'Projects'),
+        /*  UnderlinedButton(
+              context: context,
+              tabNumber: 5,
+              btnNumber: ' 05. ',
+              btnName: 'Achievements'),*/
           UnderlinedButton(
               context: context,
               tabNumber: 5,
               btnNumber: ' 05. ',
-              btnName: 'Achievements'),
-          UnderlinedButton(
-              context: context,
-              tabNumber: 6,
-              btnNumber: ' 06. ',
               btnName: 'Contact Me'),
           Visibility(
             visible: isDarkModeBtnVisible,
